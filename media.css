@@ -1,0 +1,151 @@
+/* Media queries */
+@media screen and (max-width: 1285px) {
+  .offers {
+    width: 71%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  header {
+    width: 90%;
+  }
+  .destination {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 1115px) {
+  header {
+    width: 100%;
+  }
+  header .trip_bx .travel_bx {
+    width: 104%;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  header {
+    width: 100%;
+  }
+  header .trip_bx .travel_bx .cards {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  header .trip_bx .travel_bx .cards .card {
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  header .trip_bx .search_bx {
+    width: 74%;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .nav {
+    width: 97%;
+  }
+  .destination {
+    width: 78%;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  header nav ul {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px gray;
+    justify-content: center;
+    top: -100%;
+    right: 50%;
+    transform: translateX(50%);
+    z-index: 999999999;
+    padding: 10px 20px;
+    transition: top 0.5s linear;
+  }
+
+  header nav .ul_active {
+    top: 60px;
+  }
+
+  header nav ul li {
+    padding: 8px 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  header .trip_bx .search_bx {
+    width: 84%;
+  }
+  .destination {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  header .trip_bx .search_bx {
+    width: 87%;
+  }
+  .destination {
+    width: 82%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  header .trip_bx .search_bx {
+    width: 90%;
+    left: 30px;
+  }
+  .destination .img_bx .msg {
+    padding: 0px 5px 0px;
+  }
+  .destination {
+    left: 30px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  header .trip_bx .search_bx {
+    width: 98%;
+    left: 1px;
+  }
+
+  header.trip_bx.search_bx input[type="button"] {
+    position: absolute;
+    right: 10px;
+    bottom: -43px;
+    font-size: 13px;
+    padding: 10px 11px;
+  }
+
+  .offers {
+    width: 85%;
+  }
+
+  .destination {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .destination .des_bx,
+  .destination .img_bx {
+    position: relative;
+    width: 55%;
+    height: auto;
+  }
+
+  .destination .des_bx {
+    margin-top: 30px;
+  }
+
+  header nav .bi-three-dots {
+    display: block;
+  }
+}
